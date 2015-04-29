@@ -22,10 +22,10 @@ Multi-Context Deep Learning. In CVPR 2015.
 original version, revisions happen
 in the following files:
 
-	--./caffe-sal/src/caffe/layers/mcwindowdatalayers.cpp
-	--./caffe-sal/src/caffe/layers/mcwindowdatalayers.cu
-	--./caffe-sal/src/caffe/proto/caffe.proto
-	--./caffe-sal/src/caffe/layer_factory.cpp
+	- ./caffe-sal/src/caffe/layers/mcwindowdatalayers.cpp
+	- ./caffe-sal/src/caffe/layers/mcwindowdatalayers.cu
+	- ./caffe-sal/src/caffe/proto/caffe.proto
+	- ./caffe-sal/src/caffe/layer_factory.cpp
 
 - Test folder can be set in ./get_deep_multicontext_saliency.sh
 - This source code requires GPU to accelerate the testing process
