@@ -10,8 +10,8 @@ This source code is mainly written in Python and bash shell scripts, and it is f
 Multi-Context Deep Learning. In CVPR 2015. 
 
 ## Usage
-- Supported OS: this source code is tested on 64-bit Arch Linux OS,
-    and it should be executable in other linux distributions. 
+- Supported OS: this source code was tested on 64-bit Arch Linux OS,
+    and it should also be executable in other linux distributions. 
 - Pre-installations: refer to [caffe](http://caffe.berkeleyvision.org/) for
 packages required by caffe toolkit. Packages requried by Python scripts include
 	- skimage
