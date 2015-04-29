@@ -26,6 +26,7 @@ in the following files:
 	- ./caffe-sal/src/caffe/layers/mcwindowdatalayers.cu
 	- ./caffe-sal/src/caffe/proto/caffe.proto
 	- ./caffe-sal/src/caffe/layer_factory.cpp
+	- ./caffe-sal/include/caffe/data_layers.hpp
 
 - Test folder can be set in ./get_deep_multicontext_saliency.sh
 - This source code requires GPU to accelerate the testing process
