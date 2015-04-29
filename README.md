@@ -33,6 +33,9 @@ in the following files:
 
 - Test folder can be set in ./get_deep_multicontext_saliency.sh
 - This source code requires GPU to accelerate the testing process
+- If everything runs correctly, it will generate resulting saliency maps in
+test folder (./images), suffix _sc means results produced by single-context deep
+model, and _mc by multi-context deep model.
 
 ##Citing our work
 Please kindly cite our work in your publications if it helps your research:
