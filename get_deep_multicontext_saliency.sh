@@ -2,6 +2,7 @@ caffe_root=../caffe-sal
 testfolder=./images
 device_id=0
 
+cd ${caffe_root}/data/ilsvrc12 && sh get_ilsvrc_aux.sh && cd -
 mean_file="    mean_file:\"${caffe_root}/data/ilsvrc12/imagenet_mean.binaryproto\""
 sed -e "9s@.*@${mean_file}@" clarifai_stage1.prototxt > tmpfile; mv tmpfile clarifai_stage1.prototxt
 sed -e "10s@.*@${mean_file}@" clarifai_stage2.prototxt > tmpfile; mv tmpfile clarifai_stage2.prototxt
