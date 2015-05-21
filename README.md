@@ -2,7 +2,7 @@
 Source code for our CVPR 2015 work on saliency detection by multi-context deep
 learning. 
 
-Created by [Rui Zhao](www.ee.cuhk.edu.hk/~rzhao), on May 30, 2015
+Created by [Rui Zhao](www.ee.cuhk.edu.hk/~rzhao), on May 21, 2015
 
 ## Summary
 This source code is mainly written in Python and bash shell scripts, and it is for the following paper:
