@@ -10,18 +10,18 @@ This source code is mainly written in Python and bash shell scripts, and it is f
 Multi-Context Deep Learning. In CVPR 2015. 
 
 ## Usage
-- Supported OS: this source code was tested on 64-bit Arch Linux OS,
+- **Supported OS**: this source code was tested on 64-bit Arch Linux OS,
     and it should also be executable in other linux distributions. 
-- Pre-installations: refer to [caffe](http://caffe.berkeleyvision.org/) for
+- **Pre-installations**: refer to [caffe](http://caffe.berkeleyvision.org/) for
 packages required by caffe toolkit. Packages requried by Python scripts include
 	- skimage
 	- leveldb
 	- matplotlib
-- Download caffe models by running: cd models/ && sh get_models.sh && cd ..
-- Customize test images: put your test images in folder ./images, or revise the
+- **Download caffe models**: cd models/ && sh get_models.sh && cd ..
+- **Customize test images**: put your test images in folder ./images, or revise the
 test_folder in get_deep_mutlicontext_saliency.sh to your customized image folder. 
-- Run demo in bash shell: sh get_deep_mutlicontext_saliency.sh
-- Result saliency maps will be generated and stored in the same folder.
+- **Run demo in bash shell**:
+        - sh get_deep_mutlicontext_saliency.sh
 
 ## Remark
 - Caffe-sal is a customized version of original caffe toolkit. Comparing the
