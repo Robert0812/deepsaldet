@@ -19,8 +19,9 @@ packages required by caffe toolkit. Packages requried by Python scripts include
 	- matplotlib
 - Download caffe models by running: cd models/ && sh get_models.sh && cd ..
 - Customize test images: put your test images in folder ./images, or revise the
-test_folder in get_deep_mutlicontext_saliency.sh to your customized image folder 
+test_folder in get_deep_mutlicontext_saliency.sh to your customized image folder. 
 - Run demo in bash shell: sh get_deep_mutlicontext_saliency.sh
+- Result saliency maps will be generated and stored in the same folder.
 
 ## Remark
 - Caffe-sal is a customized version of original caffe toolkit. Comparing the
