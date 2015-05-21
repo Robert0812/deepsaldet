@@ -1,4 +1,4 @@
-caffe_root=../caffe-sal
+caffe_root=./caffe-sal
 testfolder=./images
 device_id=0
 
