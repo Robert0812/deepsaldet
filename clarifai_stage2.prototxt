@@ -7,7 +7,7 @@ layers {
   top: "label1"
   mcwindow_data_param {
     source: "_tmp/window_file_test.txt"
-    mean_file:"../caffe-sal/data/ilsvrc12/imagenet_mean.binaryproto"
+    mean_file:"./caffe-sal/data/ilsvrc12/imagenet_mean.binaryproto"
     batch_size: 16
     crop_size: 227
     mask_crop_size: 64
