@@ -17,7 +17,7 @@ packages required by caffe toolkit. Packages requried by Python scripts include
 	- skimage
 	- leveldb
 	- matplotlib
-- **Download caffe models**: cd models/ && sh get_models.sh && cd ..
+- **Download caffe models**: cd models/ && sh get_models.sh && cd .. (or you can download manually via Baidu Yun: http://pan.baidu.com/s/1sjoP8Ln Password: enn9)
 - **Customize test images**: put your test images in folder ./images, or revise the
 test_folder in get_deep_mutlicontext_saliency.sh to your customized image folder. 
 - **Run demo in bash shell**:
